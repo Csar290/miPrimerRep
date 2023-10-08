@@ -1,0 +1,37 @@
+div {
+	/*filter: blur(5px);
+    filter: brightness(2);
+	filter: contrast(1.5);
+	filter: drop-shadow(20px 20px 20px #000);
+	filter: grayscale(0.5);
+	filter: hue-rotate(100deg);
+	filter: invert(100%);
+	filter: opacity(0.5);
+	filter: saturate(50%);
+	filter: sepia(0.7);*/
+}
+.container {
+	filter: contrast(30);
+	background: #fff;
+}
+.caja {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: #0f0;
+	margin: 25px;
+	border-radius: 50%;
+	filter: blur(20px);
+
+}
+.caja:first-child {
+	animation: transladar 3s alternate infinite;
+}
+@keyframes transladar {
+	0% {
+		transform: translate(0);
+	}
+	100% {
+		transform: translate(160px);
+	}
+}

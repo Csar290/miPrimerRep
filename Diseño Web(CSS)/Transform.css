@@ -1,0 +1,21 @@
+.container {
+	background: #0f0;
+	height: 190px;
+    padding: 20px 10px;
+}
+.caja {
+	background: #f66;
+	height: 100px;
+	width: 100px;
+	margin: 20px;
+	display: flex;
+	transition: transform 1s;
+}
+.caja:hover {
+	transform: scale(2) translate(500px);/*translate-scale-skew*/
+	background: #22f;
+	/*Clip-Path gg*/
+}
+b {
+	margin: auto;
+}

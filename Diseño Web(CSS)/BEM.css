@@ -1,0 +1,19 @@
+.form__input:first-child {
+	color: blue;
+}
+.form__input--2 {
+	color: red;
+}
+
+#a {
+	font-size: 20px;
+}
+#b {
+	font-family: sans-serif;
+}
+#c {
+	line-height: 4;
+}
+#d {
+	color: red;
+}

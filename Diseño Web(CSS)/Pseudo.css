@@ -1,0 +1,84 @@
+/*PseudoElementos*/
+h1 {
+	padding: 20px;
+}
+.texto {
+	padding: 20px;
+}
+/*Primera linea*/
+.texto::first-line {
+	color: red;
+}
+/*Primera letra*/
+.texto::first-letter {
+}
+form {
+	margin: 100px auto;
+	display: block;
+	background-color: lightgray;
+	padding: 20px;
+	width: 50%;
+}
+.hola {
+	padding: 6px;
+	width: 100%;
+}
+b.pse {
+	padding: 6px;
+	width: 100%;
+}
+.hola::placeholder {
+	color: green;
+}
+b.pse::before {
+	content: "Escribe algo";
+}
+b.pse::after {
+	content: "comenta algo.";
+}
+
+/*PseudoClases*/
+.prueba {
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	transition: background 2s, width 3s, height 3s;
+}
+.prueba:hover {
+	background-color: red;
+	width: 300px;
+	height: 300px;
+}
+.caja, .caja1 {
+	margin: 20px;
+	display: block;
+}
+.caja:link {
+	color: yellow;
+}
+.caja1:link {
+	color: yellowgreen;
+}
+.caja2 {
+	width: 250px;
+	height: 250px;
+	background: yellow;
+	margin: 25px;
+	transition: all 1s;
+}
+.caja2:active {
+	background: blue;
+	height: 300px;
+}
+.input {
+	margin: 25px;
+}
+.input:focus {
+	background: red;
+}
+div.b {
+	margin: 25px;
+}
+b:lang(en) {
+	background: blue;
+}

@@ -1,0 +1,17 @@
+* {
+	font-weight: 100;
+	font-size: 30px;
+}
+h1 {
+	background-color: limegreen;
+	display: inline-block;
+	padding: 20px 30px 20px 30px;
+	height: 200px;
+	width: 300px;
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 50%;
+	border: 5px groove darkgreen;
+	box-shadow: 1px 3px 10px 5px;
+	text-shadow: 5px 2px 5px white;
+	transform: rotate(45deg);

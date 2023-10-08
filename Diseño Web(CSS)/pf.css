@@ -1,0 +1,127 @@
+/*Pagina Main*/
+/*Universal*/
+.container {
+	background: #0f0;
+	height: 80px;
+	position: sticky;
+	top: 0;
+}
+.h1 {
+	font-size: 40px;
+	padding: 18px;
+}
+.lista {
+	display: inline-block;
+	font-size: 20px;
+	transform: translate(985px, -50px);
+	color: #55f;
+}
+.lista a {
+	text-decoration: none;
+	color: #000;
+}
+.lista, .lista a:hover {
+	color: #00f;
+}
+.promociones {
+	font-size: 40px;
+	padding: 40px;
+	text-decoration: underline;
+}
+.promo {
+	margin: 20px;
+	height: 450px;
+	border: 2px solid #000;
+}
+.servicios {
+	background: #5f5;
+	font-size: 40px;
+	text-align: center;
+	height: 530px;
+
+}
+.container-servicios {
+	display: grid;
+	margin: 50px;
+	font-size: 20px;
+	grid-template-columns: repeat(3, 200fr);
+	grid-template-rows: repeat(2, 215px);
+
+}
+.grid {
+	text-align: center;
+}
+.ultimos-pedidos {
+	font-size: 40px;
+	padding: 40px;
+	text-decoration: underline;
+}
+.ultimos-pedidos-img {
+	height: 380px;
+	width: 285px;
+	border: 2px solid #000;
+	margin: 24px;
+}
+.container-mensaje {
+	display: grid;
+	grid-template-columns: repeat(4, 150fr);
+	grid-template-rows: repeat(1, 150px);
+
+}
+.mensaje {
+	font-size: 20px;
+	text-align: center;
+}
+.mensaje p {
+	text-decoration: overline;
+}
+.footer {
+	padding: 10px;
+	height: 100px;
+	background: #eee;
+}
+li {
+	padding-top: 10px;
+}
+li a {
+	text-decoration: none;
+}
+/*Productos*/
+.productos {
+	text-align: center;
+	margin-top: 40px;
+	font-size: 40px;
+}
+.container-productos {
+	display: grid;
+	margin-top: 50px;
+	grid-template-columns: repeat(3, 200fr);
+	grid-template-rows: repeat(2, 400px);
+}
+.productos-img {
+	text-align: center;
+	font-size: 25px;
+}
+.productos-img img {
+	height: 320px;
+	width: 400px;
+    border-radius: 50%;
+}
+/*Sobre Nosotros*/
+.sobre-nosotros, .convenio {
+	text-align: center;
+	margin-top: 150px;
+}
+.sobre-nosotros b, .convenio b {
+	text-decoration: underline;
+	font-size: 40px;
+}
+.sobre-nosotros p {
+	margin-top: 50px;
+	font-size: 25px;
+}
+.convenio p {
+	height: 210px;
+	margin-top: 50px;
+	font-size: 25px;
+}
